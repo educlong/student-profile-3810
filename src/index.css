@@ -1,0 +1,188 @@
+@font-face {
+  src:url(../public/font/Raleway-Italic-VariableFont_wght.ttf);
+  font-family: rale_i_var_wght;
+}
+@font-face {
+  src:url(../public/font/Raleway-VariableFont_wght.ttf);
+  font-family: rale_var_wght;
+}
+
+@font-face {
+  src:url(../public/font/static/Raleway-Black.ttf);
+  font-family: rale_black;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-BlackItalic.ttf);
+  font-family: rale_black_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Bold.ttf);
+  font-family: rale_bold;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-BoldItalic.ttf);
+  font-family: rale_bold_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-ExtraBold.ttf);
+  font-family: rale_exbold;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-ExtraBoldItalic.ttf);
+  font-family: rale_exbold_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-ExtraLight.ttf);
+  font-family: rale_exlight;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-ExtraLightItalic.ttf);
+  font-family: rale_exlight_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Italic.ttf);
+  font-family: rale_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Light.ttf);
+  font-family: rale_light;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-LightItalic.ttf);
+  font-family: rale_light_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Medium.ttf);
+  font-family: rale_medium;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-MediumItalic.ttf);
+  font-family: rale_medium_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Regular.ttf);
+  font-family: raleway;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-SemiBold.ttf);
+  font-family: rale_semibold;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-SemiBoldItalic.ttf);
+  font-family: rale_semibold_i;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-Thin.ttf);
+  font-family: rale_thin;
+}
+@font-face {
+  src:url(../public/font/static/Raleway-ThinItalic.ttf);
+  font-family: rale_thin_i;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.routers{
+  background-color: #eeeeee;
+}
+.padding-part01{
+    padding-top: 55px;
+    padding-bottom: 70px;
+}
+.padding-part02{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 50%;
+    background-color: #eeeeee;
+  }
+.padding-part03{
+    width: 50%;
+    padding-bottom: 10%;
+    background-color: #eeeeee;
+  }
+.list-part02{
+  border: solid 1px white;
+  border-radius:25px;
+  background-color: white;
+  font-family: raleway;
+}
+.list-part03{
+  border: solid 1px white;
+  border-bottom-left-radius:25px;
+  border-bottom-right-radius:25px;
+  background-color: white;
+  font-family: raleway;
+}
+.invisibility{
+  display: none;
+}
+
+.visibility{
+  display: inline!important;
+}
+.grades{
+  transition: .4s;
+}
+.img-student{
+  padding: 3px;
+  height: 100%;
+}
+.format-name{
+  font-family: rale_bold;
+}
+.search-name{
+  padding-top: 10%;
+  width: 50%;
+  font-family: raleway;
+  background-color: #eeeeee;
+}
+.search-tag{
+  width: 50%;
+  font-family: raleway;
+  background-color: #eeeeee;
+}
+.tag, .tag:focus{
+  background-color: #e0e0e0;
+  border: solid 1px white;
+  border-radius: 10%;
+  box-shadow: 0 0 0 0 #e0e0e0;
+}
+.tag:focus{
+  outline: 1px auto #d1d1d1;
+}
+.format-search{
+  border-top-left-radius:25px;
+  border-top-right-radius:25px;
+}
+
+input[type=text]:focus{
+  border-bottom: solid 1px black;
+  box-shadow: 0 0 0 0 white;
+}
+
+.push-4{
+  left: 33.333332%;
+}
+.details{
+  cursor: pointer;
+  transition: .4s;
+}
+.details:hover{
+  opacity: .6;
+  transition: 2s;
+}
+.isDetails{
+  height: 0;
+  margin-top: -40px;
+}
